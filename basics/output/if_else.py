@@ -7,4 +7,4 @@ if activity == "calculate":
 else:
   print("performing activity")
 
-print("\nactivity completed!")
+print("\nactivuty complete")
