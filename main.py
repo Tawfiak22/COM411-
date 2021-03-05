@@ -1,4 +1,4 @@
-n = input()
-print("Adventure")
-n = input()
-print("Finished reading book.")
+print("What type of books Beeps likes?")
+answer = input()
+print("I like adventure books!")
+print("Finished reading books.")
