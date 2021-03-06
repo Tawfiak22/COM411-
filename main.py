@@ -1,6 +1,10 @@
-print("Please enter a whole number.")
-n=int(input())
-if(n%2==0):
-  print("The number even!")
+print("Please enter the first number.")
+first = int(input())
+print("Please enter the second number.")
+second = int(input())
+if(first>second):
+  print("Second is the smallest number.")
+elif(second>first):
+  print("first is the smallest number.")
 else:
-  print("The number is odd!")
+  print("both are equal.")
