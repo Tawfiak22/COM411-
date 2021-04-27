@@ -1,0 +1,10 @@
+def save_pokes(pokes = []):
+  with open("pokemon.txt", "w") as sv:
+    for pokemon in pokes:
+      sv.write(pokemon + "\n")
+
+def run():
+  poke_list = ["pikachu", "abra", "charizard", "bulbazaur"]
+  save_pokes(poke_list)
+
+  run()g
